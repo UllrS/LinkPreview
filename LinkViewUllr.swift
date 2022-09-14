@@ -3,17 +3,6 @@ import SwiftUI
 import LinkPresentation
 
 
-struct PreloadView: View{
-
-    let url: URL
-    
-    //LinkView parameters
-    var body: some View{
-        LinkPreview(url: url)
-            .aspectRatio(1.0, contentMode: .fit)
-    }
-}
-
 class LinkPreviewSizeController: LPLinkView {
 //    override var intrinsicContentSize: Size { UISize(width: 150, height: super.intrinsicContentSize.height) }
 }
